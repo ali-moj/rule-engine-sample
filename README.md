@@ -34,7 +34,7 @@ usage:
 
 
 
-curl --location --request POST 'localhost:8080/persons/check-rule' \
+> curl --location --request POST 'localhost:8080/persons/check-rule' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "name": "ali",
