@@ -11,7 +11,7 @@ usage:
       "action": "personCanHaveInsurance"
   }
   
-  curl --location --request POST 'http://localhost:8080/rules/save' \
+ > curl --location --request POST 'http://localhost:8080/rules/save' \
 --header 'Content-Type: application/json' \
 --data-raw '  {
       "name": "person rule",
